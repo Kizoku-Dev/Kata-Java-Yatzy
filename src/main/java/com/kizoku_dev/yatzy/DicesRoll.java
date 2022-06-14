@@ -92,11 +92,21 @@ class DicesRoll {
         return dicesResults.stream().sorted().collect(toList());
     }
 
-    public boolean ifSmallStraight() {
+    /**
+     * Is dices roll a small straight boolean.
+     *
+     * @return true if small straight, false otherwise.
+     */
+    public boolean isSmallStraight() {
         return sortAsc().equals(SMALL_STRAIGTH);
     }
 
-    public boolean ifLargeStraight() {
+    /**
+     * Is dices roll a large straight boolean.
+     *
+     * @return true if large straight, false otherwise.
+     */
+    public boolean isLargeStraight() {
         return sortAsc().equals(LARGE_STRAIGHT);
     }
 

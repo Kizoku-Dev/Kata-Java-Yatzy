@@ -140,7 +140,7 @@ public class Scores {
      * @return the score
      */
     public static int smallStraight(DicesRoll roll) {
-        return roll.ifSmallStraight() ? 15 : 0;
+        return roll.isSmallStraight() ? 15 : 0;
     }
 
     /**
@@ -150,7 +150,7 @@ public class Scores {
      * @return the score
      */
     public static int largeStraight(DicesRoll roll) {
-        return roll.ifLargeStraight() ? 20 : 0;
+        return roll.isLargeStraight() ? 20 : 0;
     }
 
     /**
