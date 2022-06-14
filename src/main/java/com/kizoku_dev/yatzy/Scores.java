@@ -3,7 +3,7 @@ package com.kizoku_dev.yatzy;
 import java.util.List;
 
 /**
- * The type com.kizoku_dev.yatzy.Scores.
+ * Scores class used to compute Yatzy scores for a given dice roll.
  */
 public class Scores {
 

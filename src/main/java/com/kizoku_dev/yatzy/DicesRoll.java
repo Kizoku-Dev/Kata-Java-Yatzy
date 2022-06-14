@@ -11,7 +11,8 @@ import static java.util.stream.Collectors.reducing;
 import static java.util.stream.Collectors.toList;
 
 /**
- * The type Dices roll.
+ * DiceRoll class used to manipulate results of a dice roll.
+ * Represents a DiceRoll.
  */
 class DicesRoll {
 
