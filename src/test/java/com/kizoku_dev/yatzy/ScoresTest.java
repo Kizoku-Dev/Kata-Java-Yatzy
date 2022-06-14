@@ -84,7 +84,7 @@ public class ScoresTest {
     }
 
     @Test
-    public void testFourOfAkind() {
+    public void testFourOfAKind() {
         assertEquals(12, Scores.fourOfAKind(new DicesRoll(3, 3, 3, 3, 5)));
         assertEquals(20, Scores.fourOfAKind(new DicesRoll(5, 5, 5, 4, 5)));
         assertEquals(12, Scores.fourOfAKind(new DicesRoll(3, 3, 3, 3, 3)));
